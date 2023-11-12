@@ -7,3 +7,4 @@ pillow==9.0.1
 matplotlib==3.5.1
 plotly_express==0.4.0
 scikit-learn
+-U scikit-learn
