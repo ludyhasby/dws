@@ -13,7 +13,6 @@ import pandas as pd # dataset processing
 import numpy as np # array
 import seaborn as sns # visualisasi
 import matplotlib.pyplot as plt # visualisasi
-import seaborn.objects as so # interface vis
 import plotly.express as px # untuk figures
 from sklearn.preprocessing import LabelEncoder # untuk encode label cat
 from imblearn.over_sampling import SMOTE # untuk handling imbalance
@@ -266,22 +265,3 @@ with tab3:
     print(models)'''
     st.code(code, language='python')
     st.image('lazy.png')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
