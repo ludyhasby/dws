@@ -63,7 +63,7 @@ with bag2:
 
 data = pd.read_excel('Telco_customer_churn_adapted_v2.xlsx')
 
-tab1, tab2, tab3, tab4 = st.tabs(["Data Visualization", "Data Preprocessing", "Data Modelling","Prediction Of Churn"])
+tab1, tab2, tab3 = st.tabs(["Data Visualization", "Data Preprocessing", "Data Modelling"])
 with tab1:
     # visualisasi Data Keseluruhan
     st.title("#Visualisasi Data Berdasar Kolom")
