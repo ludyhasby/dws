@@ -56,7 +56,7 @@ with bag1:
     with sub2:
         st.checkbox("Viewing on a mobile?", key="center", value=st.session_state.get("center", False))
     with sub3: 
-        st.markdown("<h6 style='text-align: right; '> Tim Demeter </h6>", unsafe_allow_html=True)
+        st.markdown("<h6 style='text-align: right; '> DLW Data Crew Team </h6>", unsafe_allow_html=True)
 with bag2:
     image = Image.open('logo.png')
     st.image(image)
