@@ -87,7 +87,7 @@ with tab1:
     st.pyplot(fig)
 
     # Visualisasi Data dengan Hue Churn Label
-    st.title("#Produk Yang Paling Sering Digunakan")
+    st.title("#Visualisasi Data dengan Hue Churn Label")
     # distribusi churn pada setiap kategori
     kat = kat.iloc[:, :9]
     for i in kat :
